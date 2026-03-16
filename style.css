@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:rgba(22, 2, 35, 0.048);
+    line-height:1.5;
+    padding:20px;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+.header img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:4px solid rgb(20, 97, 128);
+}
+
+.header-text h1{
+    color:rgb(11, 2, 32);
+    font-size:30px;
+}
+
+.header-text p{
+    color:rgba(40, 197, 108, 0.575);
+}
+
+.navbar{
+    background:rgb(167, 47, 107);
+    padding:12px;
+    border-radius:8px;
+    margin:20px 0;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    flex-wrap:wrap;
+}
+
+.navbar li{
+    margin:5px 20px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    text-decoration:underline;
+}
+
+.section{
+    background:rgba(13, 77, 104, 0.444);
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 10px 10px rgba(46, 150, 26, 0.1);
+}
+
+.section h2{
+    margin-bottom:10px;
+    color:rgba(132, 155, 18, 0.8);
+    border-bottom:2px solid rgb(238, 238, 238);
+    padding-bottom:5px;
+}
+
+.skills ul{
+    padding-left:20px;
+}
+
+.skills li{
+    margin:6px 0;
+}
+
+.footer{
+    text-align:center;
+    background:rgb(114, 17, 85);
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    margin-top:10px;
+}
